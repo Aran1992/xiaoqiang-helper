@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "xiaoqiang-helper",
+  "description": "解放小强的插件",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "js": ["content-platform.js"],
+      "matches": [
+        "https://my.xueyuds.com/*"
+      ]
+    },
+    {
+      "js": ["content-search.js"],
+      "matches": ["http://www.dianzhushou.cn/function/ww-check"]
+    }
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "host_permissions": [
+    "http://www.dianzhushou.cn/*",
+    "https://my.xueyuds.com/*"
+  ]
+}

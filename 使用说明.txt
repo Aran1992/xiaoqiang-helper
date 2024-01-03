@@ -1,0 +1,10 @@
+现在弄的还不完善 先将就用
+首先先登录好两个平台
+然后关掉两个平台的所有相关页面
+可以打开该目录下的service-worker.js 修改上面的参数
+然后加载启动插件
+打开http://www.dianzhushou.cn/function/ww-check
+再打开https://my.xueyuds.com/seller#/ActivityOrderPendingNumberList
+这样就开始工作了 工作期间不能操作哈
+
+如果不想要用了 就关掉这些平台的页面 然后把插件移除或启动
